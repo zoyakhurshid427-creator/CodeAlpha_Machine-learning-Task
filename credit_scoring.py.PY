@@ -306,7 +306,7 @@ def main():
     sample_path = out / "sample_applicants.json"
     sample_path.write_text(json.dumps(json.loads(sample.to_json(orient="records")), indent=2))
     print(f"\nExample scores for 3 applicants ({sample_path}):")
-    print(score_applicants(joblib.load(out / "credit_model.joblib"), json.loads(sample_path.read_text())).to_string())
+    print(score_applicants(joblib.load(out / "credit_model.joblib"), json.loads(sample_path.read_text())).to_string()).
 
 
 if __name__ == "__main__":
