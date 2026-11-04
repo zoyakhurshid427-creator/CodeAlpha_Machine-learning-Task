@@ -57,4 +57,4 @@ The project generates:
 The default demonstration uses a synthetic dataset. Results are for educational purposes and do not represent validated real-world credit assessments.
 
 ## Author
-Your Name
+zoya khurshid
